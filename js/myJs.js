@@ -1,16 +1,16 @@
 const textConfig = {
-  text1: "He luu cậu!",
-  text2: "Tớ có điều này muốn hỏi cậu nhớ phải trả lời thật lòng nhaaa.",
-  text3: "Cậu yêu tớ có phải không nào ._.",
-  text4: "Nếu cậu ko trả lời mà thoát ra tức là muốn làm vợ tớ rùi đó nha :v",
-  text5: "Cậu mơ à???",
-  text6: "Yêu ơi là yêu <3",
-  text7: "lí do cậu thích tớ đi :vvvv",
-  text8: "Gửi cho tớ <3",
-  text9: "Vì cậu đẹp try vlllll",
-  text10: "Tớ biết mà ^^ Yêu cậu 300.000",
+  text1: "Hello ba Tâm!",
+  text2: "Hôm nay 17/07 là sinh nhật của ba đúng không!!!",
+  text3: "Chúc ba sinh nhật vui vẻ nha <3 <3",
+  text4: "Mong Ba luôn vui vẻ không la con với má mi nữa nha hihi ",
+  text5: "Ai biểu mày lì",
+  text6: "Ok không la nữa!! Thương nhiều",
+  text7: "Hết dịch ba dẫn đi ăn sinh nhật nha kkkk",
+  text8: "Gửi cho bé Vy",
+  text9: "Ok luôn",
+  text10: "Yêu ba nhiều :d",
   text11:
-    "Tối nay tớ qua đón cậu đi chơi nhaa :v Còn giờ thì chờ gì nữa mà ko inbox cho tớ đi nàooo",
+    "Ba hứa là luôn vui cười không la mắng nữa nha :)",
   text12: "Okii lunn <3",
 };
 
@@ -35,10 +35,10 @@ $(document).ready(function () {
     Swal.fire({
       title: textConfig.text1,
       text: textConfig.text2,
-      imageUrl: "img/cuteCat.jpg",
+      imageUrl: "img/birthday_cake.jpg",
       imageWidth: 300,
       imageHeight: 300,
-      background: '#fff url("img/iput-bg.jpg")',
+      background: '#fff url("img/family_photo.jpg")',
       imageAlt: "Custom image",
     }).then(function () {
       $(".content").show(200);
@@ -115,7 +115,7 @@ $(document).ready(function () {
       width: 900,
       padding: "3em",
       html: "<input type='text' class='form-control' id='txtReason'  placeholder='Whyyy'>",
-      background: '#fff url("img/iput-bg.jpg")',
+      background: '#fff url("img/family_photo.jpg")',
       backdrop: `
                     rgba(0,0,123,0.4)
                     url("img/giphy2.gif")
@@ -133,7 +133,7 @@ $(document).ready(function () {
         Swal.fire({
           width: 900,
           confirmButtonText: textConfig.text12,
-          background: '#fff url("img/iput-bg.jpg")',
+          background: '#fff url("img/family_photo.jpg")',
           title: textConfig.text10,
           text: textConfig.text11,
           confirmButtonColor: "#83d0c9",
